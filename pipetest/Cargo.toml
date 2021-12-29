@@ -7,3 +7,6 @@ license = "MIT"
 
 [dependencies]
 pipewriter =  { path = "../pipewriter" }
+
+[build-dependencies]
+spirv-builder = { git = "https://github.com/EmbarkStudios/rust-gpu.git", branch = "main" }
