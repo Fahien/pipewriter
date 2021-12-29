@@ -1,14 +1,6 @@
-[package]
-name = "pipewriter"
-version = "0.1.0"
-authors = ["Antonio Caggiano <info@antoniocaggiano.eu>"]
-edition = "2018"
-license = "MIT"
+[workspace]
 
-[lib]
-proc-macro = true
-
-[dependencies]
-proc-macro2 = "1.0"
-syn = { version = "1.0", features = ["full"] }
-quote = "1.0"
+members = [
+    "pipewriter",
+    "pipetest"
+]
