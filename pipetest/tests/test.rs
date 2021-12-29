@@ -4,7 +4,7 @@
 
 use pipewriter::*;
 
-pipewriter_macro!("pipetest/shader/simple/src/simple.rs");
+pipewriter_macro!("pipetest/shader/simple");
 
 #[test]
 fn load_simple_shader() {
