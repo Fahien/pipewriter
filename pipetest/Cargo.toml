@@ -6,7 +6,9 @@ edition = "2018"
 license = "MIT"
 
 [dependencies]
-pipewriter =  { path = "../pipewriter" }
+pipewriter = { path = "../pipewriter" }
+ash = "0.33"
+vkr-core = { git = "https://github.com/fahien/vkr.git", branch = "restructure", default-features = false }
 
 [build-dependencies]
 spirv-builder = { git = "https://github.com/EmbarkStudios/rust-gpu.git", branch = "main" }
