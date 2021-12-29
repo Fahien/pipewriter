@@ -1,4 +1,5 @@
 [workspace]
 members = [
     "crates/vkr-pipe",
+    "crates/vkr-pipe-test"
 ]
