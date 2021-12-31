@@ -557,7 +557,7 @@ dependencies = [
 [[package]]
 name = "vkr-core"
 version = "0.4.1"
-source = "git+https://github.com/fahien/vkr.git?branch=restructure#25f4d924a8a24a5c08262033385c3cd1eb3ecdd4"
+source = "git+https://github.com/fahien/vkr.git?branch=restructure#481c73d37f9f25e5ab3d14adbf4b07999eb2e4ca"
 dependencies = [
  "ash",
  "byteorder",
@@ -570,7 +570,7 @@ dependencies = [
 [[package]]
 name = "vkr-util"
 version = "0.4.1"
-source = "git+https://github.com/fahien/vkr.git?branch=restructure#25f4d924a8a24a5c08262033385c3cd1eb3ecdd4"
+source = "git+https://github.com/fahien/vkr.git?branch=restructure#481c73d37f9f25e5ab3d14adbf4b07999eb2e4ca"
 
 [[package]]
 name = "wasi"
