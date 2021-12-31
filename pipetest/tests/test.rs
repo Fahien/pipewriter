@@ -3,7 +3,7 @@
 // SPDX-License-Identifier: MIT
 
 use pipewriter::*;
-use vkr_core::{Ctx, Dev};
+use vkr_core::Ctx;
 
 pipewriter_macro!("pipetest/shader/simple");
 
@@ -18,7 +18,7 @@ fn build_simple_shader() {
     let ctx = Ctx::builder().build();
     let dev = Dev::new(&ctx, None);
 
-    let shader_crate = CrateSimpleShader::new(&dev.device);
+    let shader_crate = CrateSimpleShader::new(&dev);
     let _main_pipeline = &shader_crate.main;
     let _secondary_pipeline = &shader_crate.secondary;
 
