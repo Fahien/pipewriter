@@ -94,7 +94,6 @@ fn get_pipelines(file: &syn::File) -> Vec<Pipeline> {
                                 syn::Type::Ptr(_) => eprintln!("Ptr"),
                                 syn::Type::Reference(_) => {
                                     // TODO: look for mutable output values
-                                    eprintln!("Reference");
                                 }
                                 syn::Type::Slice(_) => eprintln!("Slice"),
                                 syn::Type::TraitObject(_) => eprintln!("Trait"),
