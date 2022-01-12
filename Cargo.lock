@@ -631,6 +631,7 @@ dependencies = [
  "spirv-builder",
  "vkr-core",
  "vkr-pipe",
+ "vkr-util",
 ]
 
 [[package]]
